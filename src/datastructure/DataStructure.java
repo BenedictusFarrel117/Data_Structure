@@ -5,7 +5,6 @@ public class DataStructure {
         double total = 0;
         for (int i = 0; i<nilai.length; i++){
             total+=nilai[i];
-        }
-        
+        } 
     }
 }
