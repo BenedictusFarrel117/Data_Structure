@@ -15,5 +15,8 @@ public class DataStructure {
         for (int i = 0; i<nilai.length; i++){
             total+=nilai[i];
         } 
+        double rataRata = total / nilai.length;
+        System.out.println("Total Penjumlahan: " + (int)total);
+        System.out.println("Rata-rata: " + rataRata);
     }
 }
